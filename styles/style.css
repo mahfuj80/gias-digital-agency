@@ -28,7 +28,8 @@
 }
 
 .banner {
-    background-image: url(../asset/image/background.jpg);
+    background-image: url('../asset/image/background.jpg'), linear-gradient(#e66465, #9198e5);
+    background-blend-mode: overlay;
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -72,4 +73,33 @@
     width: 500px;
     margin: auto;
     color: white;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.klsdfaj {
+    height: 100vh;
+    background-image: url("../asset/image/footer-bg.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.klsdfaj {
+    display: flex;
+}
+
+.picture {
+    display: flex;
+    align-items: center;
 }
