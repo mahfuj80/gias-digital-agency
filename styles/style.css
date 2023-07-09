@@ -26,3 +26,50 @@
     font-size: 20px;
     color: white;
 }
+
+.banner {
+    background-image: url(../asset/image/background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    border: none;
+}
+
+.btn-primary {
+    border: none;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+
+}
+
+.btn-secondary {
+    border: none;
+    padding: 10px 20px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 8px;
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.banner-2 {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+    color: white;
+}
