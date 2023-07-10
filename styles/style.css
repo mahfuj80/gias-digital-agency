@@ -82,11 +82,16 @@
 
 .klsdfaj {
     height: 100vh;
-    background-image: url("../asset/image/footer-bg.png");
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgb(128, 128, 128), rgb(128, 128, 128));
+    background-blend-mode: overlay;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
+}
+
+.div-1 {
+    width: 30%;
 }
 
 .icon {
@@ -97,9 +102,34 @@
 
 .klsdfaj {
     display: flex;
+    justify-content: space-between;
+    padding: 50px;
 }
 
 .picture {
     display: flex;
     align-items: center;
+}
+
+.first-one {
+    display: flex;
+    width: 197px;
+    gap: 20px;
+
+}
+
+.div-icon {
+    width: 40%;
+}
+
+.div-3 {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    padding: 40px;
+    margin-top: 10px;
+    background-color: white;
 }
